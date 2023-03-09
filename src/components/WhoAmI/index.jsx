@@ -10,6 +10,7 @@ function Page({ whoAmI }) {
     )
 }
 function mapDispatch(dispatch) {
+    console.log('mapDispatch');
     return {
         whoAmI() {
             dispatch(whoAmI());    
