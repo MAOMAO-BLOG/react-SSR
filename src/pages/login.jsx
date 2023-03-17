@@ -5,9 +5,9 @@ import { login } from '@/store/actions/login';
 function mapDispatch(dispatch) {
     return {
         async onSubmit({ loginId, loginPwd }) {
-            //巨大法律空白地方可能
+            //登陆页面
             return await dispatch(login(loginId, loginPwd));
-                
+
         }
     }
 }
