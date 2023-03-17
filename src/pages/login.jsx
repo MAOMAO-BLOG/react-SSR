@@ -7,6 +7,7 @@ function mapDispatch(dispatch) {
         async onSubmit({ loginId, loginPwd }) {
             //巨大法律空白地方可能
             return await dispatch(login(loginId, loginPwd));
+                
         }
     }
 }
